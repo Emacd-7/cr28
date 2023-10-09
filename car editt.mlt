@@ -1,0 +1,205 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="7.19.0" title="Shotcut version 23.07.29" producer="main_bin">
+  <profile description="PAL 4:3 DV or DVD" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="60" frame_rate_den="1" colorspace="709"/>
+  <chain id="chain0" out="00:00:19.983">
+    <property name="length">00:00:20.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/admin/Downloads/istockphoto-874744812-640_adpp_is.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="creation_time">2017-11-16T16:27:56</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">7316f2fb410edfdddf7d7de07d5e6729</property>
+  </chain>
+  <chain id="chain1" out="00:00:14.550">
+    <property name="length">00:00:14.567</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/admin/Downloads/istockphoto-473094903-640_adpp_is.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="creation_time">2023-09-14T03:46:36</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">2a51abb5616d3fe004a1fa76b1c4cfe7</property>
+    <property name="shotcut:caption">istockphoto-473094903-640_adpp_is.mp4</property>
+    <property name="ignore_points">1</property>
+  </chain>
+  <chain id="chain2" out="00:03:23.250">
+    <property name="length">00:03:23.267</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/admin/Downloads/The Weeknd - Blinding Lights (Official Audio) - EdmNepal.Com.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="creation_time">2023-09-14T03:24:17</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">be47e6acb0c15d758b78da4f8a3f0040</property>
+  </chain>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+    <entry producer="chain0" in="00:00:00.000" out="00:00:19.983"/>
+    <entry producer="chain1" in="00:00:00.000" out="00:00:14.550"/>
+    <entry producer="chain2" in="00:00:00.000" out="00:03:23.250"/>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:00:32.567">
+    <property name="length">00:00:32.583</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:00:32.567"/>
+  </playlist>
+  <chain id="chain3" out="00:00:19.983">
+    <property name="length">00:00:20.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/admin/Downloads/istockphoto-874744812-640_adpp_is.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="creation_time">2017-11-16T16:27:56</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">7316f2fb410edfdddf7d7de07d5e6729</property>
+    <property name="shotcut:caption">istockphoto-874744812-640_adpp_is.mp4</property>
+    <filter id="filter0" out="00:00:18.100">
+      <property name="argument"></property>
+      <property name="geometry">-212 847 1196 288 1</property>
+      <property name="family">Sans</property>
+      <property name="size">48</property>
+      <property name="weight">400</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">0x000000ff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">0x00000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="pixel_ratio">1</property>
+      <property name="mlt_service">qtext</property>
+      <property name="shotcut:filter">richText</property>
+      <property name="html">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Verdana'; font-size:72pt; font-weight:600; color:#ffffff;&quot;&gt;                       &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Verdana'; font-size:72pt; font-weight:600; color:#ffffff;&quot;&gt;       Edits by Emacd&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="disable">0</property>
+    </filter>
+  </chain>
+  <chain id="chain4" out="00:00:19.983">
+    <property name="length">00:00:20.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/admin/Downloads/istockphoto-874744812-640_adpp_is.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="creation_time">2017-11-16T16:27:56</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">7316f2fb410edfdddf7d7de07d5e6729</property>
+    <property name="shotcut:caption">istockphoto-874744812-640_adpp_is.mp4</property>
+  </chain>
+  <chain id="chain5" out="00:00:14.550">
+    <property name="length">00:00:14.567</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/admin/Downloads/istockphoto-473094903-640_adpp_is.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="creation_time">2023-09-14T03:46:36</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">2a51abb5616d3fe004a1fa76b1c4cfe7</property>
+    <property name="shotcut:caption">istockphoto-473094903-640_adpp_is.mp4</property>
+    <property name="ignore_points">1</property>
+  </chain>
+  <tractor id="tractor0" in="00:00:00.067" out="00:00:00.100">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="chain4" in="00:00:18.200" out="00:00:18.300"/>
+    <track producer="chain5" in="00:00:00.000" out="00:00:00.100"/>
+    <transition id="transition0" out="00:00:00.183">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+    </transition>
+    <transition id="transition1" out="00:00:00.183">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="chain3" in="00:00:00.000" out="00:00:18.083"/>
+    <entry producer="tractor0" in="00:00:00.067" out="00:00:00.067"/>
+    <entry producer="chain5" in="00:00:00.117" out="00:00:14.550"/>
+  </playlist>
+  <chain id="chain6" out="00:03:23.250">
+    <property name="length">00:03:23.267</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/admin/Downloads/The Weeknd - Blinding Lights (Official Audio) - EdmNepal.Com.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="creation_time">2023-09-14T03:24:17</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">be47e6acb0c15d758b78da4f8a3f0040</property>
+    <property name="shotcut:caption">The Weeknd - Blinding Lights (Official Audio) - EdmNepal.Com.mp3</property>
+  </chain>
+  <playlist id="playlist1">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <entry producer="chain6" in="00:00:12.600" out="00:00:45.167"/>
+  </playlist>
+  <tractor id="tractor1" title="Shotcut version 23.07.29" in="00:00:00.000" out="00:00:32.567">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1" hide="video"/>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition3">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition4">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+  </tractor>
+</mlt>
